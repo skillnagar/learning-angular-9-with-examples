@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'learning-angular';
+
+  author: string = "skillnagar";
+
+  getViews(): string {
+
+    return Math.floor((Math.random() * 10) + 1) + "M";
+
+  }
+
+
 }
