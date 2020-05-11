@@ -1,0 +1,11 @@
+p {
+    background: green;
+    border: 2px solid grey;
+    padding: 5px;
+    font-style: italic;
+}
+
+p:hover {
+    background: white;
+    cursor: pointer;
+}
